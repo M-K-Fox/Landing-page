@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(36, 18, 77);
+    color: white;
+}
+.logo {
+    display: inline-block;
+    height: 100px;
+    width:300px;
+}
+.header-links {
+    display: flex;
+    justify-content: end;
+    padding-right: 70px;
+    align-items: flex-start;
+    margin-top: -90px;
+    flex: 1 1 auto;
+    text-size-adjust: 10px;
+}
+.place-holder {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    justify-content: end;
+    margin-right: 50px;
+}
