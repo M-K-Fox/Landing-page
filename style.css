@@ -17,7 +17,7 @@
     display: flex;
     flex: 1 1 auto;
     justify-content: space-between;
-   margin: 20px 8% 0px 50%;
+    margin: 20px 8% 0px 50%;
 }
 .place-holder {
     height: 300px;
@@ -51,4 +51,29 @@ a {
     margin-left: 7%;
     margin-top: -150px;
     margin-bottom: 150px;
+    background-color: #3882f6;
+    color:#e5e7eb;
+    border-radius: 15%;
+    font-size: 14px;
+}
+.info-title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+}
+.illustration {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    flex-wrap: nowrap;
+}
+.img-1 {
+   height: 150px;
+   width: 150px;
+}
+.illustration-1 {
+    text-align: center;
+    width: 50%;
+    margin: 0px 5% auto 7%;
 }
