@@ -1,6 +1,5 @@
 #header {
     background-color: #1F2937;
-    display: inline-block;
 }
 #logo-links {
     display: flex;
@@ -10,7 +9,7 @@
 .logo {
     border-radius: 50%;
     height: 150px;
-    width: 100px;
+    width: 150px;
 }
 
 .link {
@@ -20,9 +19,9 @@
     margin: 20px 8% 0px 50%;
 }
 .place-holder {
+    display: flex;
     height: 300px;
     width: 700px;
-    margin-right: 40px;
     margin-bottom: 70px;
 }
 .header-content {
@@ -48,9 +47,6 @@ a {
 }
 .button {
     display: flex;
-    margin-left: 7%;
-    margin-top: -150px;
-    margin-bottom: 150px;
     background-color: #3882f6;
     color:#e5e7eb;
     border-radius: 15%;
@@ -61,12 +57,16 @@ a {
     font-weight: bolder;
     font-size: 36px;
     color: #1f2937;
+    margin-top: 100px;
+    margin-bottom: 50;
 }
 .illustration {
     display: flex;
     flex-direction: row;
     flex: 1 1 auto;
     flex-wrap: nowrap;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 .img-1 {
    height: 150px;
